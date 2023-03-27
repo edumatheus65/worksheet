@@ -24,8 +24,9 @@ const TableData = ( { data } ) => {
         <tbody>
             {
                 data.map((value) =>
-                    
-                    {keys.map(key => <td key={key}>{value[key]}</td>)}
+                    <tr>
+                        {keys.map(key => <td key={key}>{value[key]}</td>)}
+                    </tr>
                 )
             }
                 
