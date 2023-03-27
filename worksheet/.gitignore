@@ -17,10 +17,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # data
-/data
+/src/data
 
 # fetchApi
-/fetchApi
+/src/fetchApi
 
 
 
