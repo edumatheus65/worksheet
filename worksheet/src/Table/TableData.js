@@ -22,13 +22,13 @@ const TableData = ( { data } ) => {
     return (
 
         <tbody>
-            {/* {
-                data.map((value) => */}
+            {
+                data.map((value) =>
                     <tr>
-                        {keys.map(key => <td key={key}>{data[key]}</td>)}
+                        {keys.map(key => <td key={key}>{value[key]}</td>)}
                     </tr>
-                {/* )
-            } */}
+                )
+            } 
                 
         </tbody>
 
