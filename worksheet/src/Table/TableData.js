@@ -22,9 +22,13 @@ const TableData = ( { data } ) => {
     return (
 
         <tbody>
-                {
-                    console.log(data)
-                }
+            {
+                data.map((value) =>
+                    
+                    {keys.map(key => <td key={key}>{value[key]}</td>)}
+                )
+            }
+                
         </tbody>
 
     )
