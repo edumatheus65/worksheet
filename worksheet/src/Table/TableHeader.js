@@ -1,7 +1,10 @@
 import React from 'react'
 
-function TableHeader( { columns } ) {
-    const keys = Object.keys(columns)
+function TableHeader({ columns }) {
+
+    const keys = Object.keys(columns || {})
+    
+
     return (
 
         <thead>
