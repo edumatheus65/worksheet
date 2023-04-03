@@ -5,8 +5,7 @@
 
 #contacts_table thead {
     color: #FFF;
-    background-color: #aeb2b8;
-    
+    background-color: #aeb2b8;    
 }
 
 .button {
@@ -23,5 +22,4 @@
 
 .button:hover {
     filter: brightness(0.9);
-
 }

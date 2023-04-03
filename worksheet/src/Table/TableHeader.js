@@ -1,12 +1,8 @@
 import React from 'react'
 
 function TableHeader({ columns }) {
-
     const keys = Object.keys(columns || {})
-    
-
     return (
-
         <thead>
             <tr key={columns}>
                 {
@@ -14,11 +10,6 @@ function TableHeader({ columns }) {
                 }
             </tr>
         </thead>
-
     )
-
 }
-
-
-
 export default TableHeader
