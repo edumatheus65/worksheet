@@ -37,7 +37,5 @@ function App() {
       <Table columns={columns} data={data} />
     </div>
   );
-
 }
-
 export default App;
