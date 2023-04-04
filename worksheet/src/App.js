@@ -7,7 +7,7 @@ function App() {
   const [columns, setColumns] = useState([])
 
   const loadingData = () => {
-    setColumns({
+    setColumns([{
       Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
       JAN: 'Janeiro',
       FEV: 'Fevereiro',
@@ -15,9 +15,9 @@ function App() {
       ABR: 'Abril',
       MAI: 'Maio',
       JUN: 'Junho'
-    })
+    }])
 
-    setData({
+    setData([{
       Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
       JAN: 'Janeiro',
       FEV: 'Fevereiro',
@@ -25,7 +25,7 @@ function App() {
       ABR: 'Abril',
       MAI: 'Maio',
       JUN: 'Junho'
-    })
+    }])
   }
 
   useEffect(() => {
