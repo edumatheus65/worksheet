@@ -5,8 +5,8 @@ const TableData = ({ data }) => {
     return (
         <tbody>
             {
-                data.map(value =>
-                    <tr>
+                data.map((value, i) =>
+                    <tr key={i}>
                         {
                             keys.map(key => <td key={key}>{value[key]}</td>)
                         }

@@ -25,6 +25,24 @@ function App() {
       ABR: 'Abril',
       MAI: 'Maio',
       JUN: 'Junho'
+    },
+    {
+      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
+      JAN: 'Janeiro',
+      FEV: 'Fevereiro',
+      MAR: 'Março',
+      ABR: 'Abril',
+      MAI: 'Maio',
+      JUN: 'Junho'
+    },    
+    {
+      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
+      JAN: 'Janeiro',
+      FEV: 'Fevereiro',
+      MAR: 'Março',
+      ABR: 'Abril',
+      MAI: 'Maio',
+      JUN: 'Junho'
     }])
   }
 
