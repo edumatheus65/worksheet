@@ -6,48 +6,16 @@ function App() {
   const [data, setData] = useState([])
   const [columns, setColumns] = useState([])
 
-  const loadingData = () => {
-    setColumns([{
-      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
-      JAN: 'Janeiro',
-      FEV: 'Fevereiro',
-      MAR: 'Março',
-      ABR: 'Abril',
-      MAI: 'Maio',
-      JUN: 'Junho'
-    }])
-
-    setData([{
-      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
-      JAN: 'Janeiro',
-      FEV: 'Fevereiro',
-      MAR: 'Março',
-      ABR: 'Abril',
-      MAI: 'Maio',
-      JUN: 'Junho'
-    },
-    {
-      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
-      JAN: 'Janeiro',
-      FEV: 'Fevereiro',
-      MAR: 'Março',
-      ABR: 'Abril',
-      MAI: 'Maio',
-      JUN: 'Junho'
-    },    
-    {
-      Municipio_Ano_Tipo: 'ANO & TIPO DA AÇÃO',
-      JAN: 'Janeiro',
-      FEV: 'Fevereiro',
-      MAR: 'Março',
-      ABR: 'Abril',
-      MAI: 'Maio',
-      JUN: 'Junho'
-    }])
+  const loadingData = async () => {
+    const url = 'http://localhost:7000/data/'
+    const res = await fetch(url)
+    const data = await res.json()
+    setColumns(data.columns)
+    setData(data.data)
   }
-
+  
   useEffect(() => {
-    loadingData()
+    loadingData()   
   }, [])
 
   return (
