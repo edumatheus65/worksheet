@@ -4,8 +4,6 @@ const cors = require('cors')
 const app = express()
 const port = 7000
 const data = require('./data/wordList.json')
-const data_2 = require('./data_2/updateList.json')
-const data_3 = require('./data_3/db.json')
 
 app.use(cors())
 
