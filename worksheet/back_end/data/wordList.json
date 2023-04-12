@@ -1,0 +1,42 @@
+{
+  "columns": [
+    {
+      "Municipio_Ano_Tipo": "2021_Balancete_Isolado_Conta_Corrente",
+      "JAN": "ok",
+      "FEV": "",
+      "MAR": "ok",
+      "ABR": "ok",
+      "MAI": "",
+      "JUN": "ok"
+    }
+  ],
+  "data": [
+    {
+      "Municipio_Ano_Tipo": "2021_Balancete_Isolado_Conta_Corrente",
+      "JAN": "ok",
+      "FEV": "",
+      "MAR": "ok",
+      "ABR": "ok",
+      "MAI": "",
+      "JUN": "ok"
+    },
+    {
+      "Municipio_Ano_Tipo": "2021_Balancete_Isolado_Conta_Contabil",
+      "JAN": "",
+      "FEV": "ok",
+      "MAR": "",
+      "ABR": "",
+      "MAI": "ok",
+      "JUN": "ok"
+    },
+    {
+      "Municipio_Ano_Tipo": "2020_Balancete_Isolado_Conta_Corrente",
+      "JAN": "ok",
+      "FEV": "",
+      "MAR": "ok",
+      "ABR": "ok",
+      "MAI": "",
+      "JUN": ""
+    }
+  ]
+}
