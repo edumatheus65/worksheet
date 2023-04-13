@@ -1,9 +1,11 @@
 # worksheet
 Uma planilha feita usando react, resgantando dados de um servidor usando uma API/fectch
 
-Para executar o front-end há um arquivo README.MD com as instruções
+# Frontend
+Para executar o frontend do projeto há um arquivo README.MD no diretótio frontend com as instruções
 
-Para executar o back-end há um arquivo README.MD com as instruções
+# Backend
+Para executar o backend do projeto há um arquivo README.MD no diretório backend com as instruções
 
 
 
