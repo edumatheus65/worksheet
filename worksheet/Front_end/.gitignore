@@ -22,5 +22,8 @@ src/data
 # fetchApi
 src/fetchApi
 
+#config
+src/config/config.js
+
 
 
