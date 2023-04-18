@@ -1,6 +1,6 @@
 # worksheet
 Uma planilha feita usando react, resgantando dados de um servidor usando uma API/fectch<br>
-Obs. Ter o npm previamente instalado
+Obs. Ter o node.js a partir da versão 18.16.0 previamente instalado.
 
 # backend
 Para executar o backend do projeto há um arquivo README.MD no diretório backend com as instruções
