@@ -1,5 +1,5 @@
 # worksheet
-Uma planilha feita usando react, resgantando dados de um servidor usando uma API/fectch<br>
+Uma planilha feita com react, resgatando dados de um servidor usando uma API/fetch<br>
 Obs. Ter o node.js a partir da versão 18.16.0 previamente instalado.
 
 # backend
