@@ -3,7 +3,7 @@ const cors = require('cors')
 
 const app = express()
 const port = 7000
-const data = require('./data/wordList.json')
+const data = require('./src/data/wordList.json')
 
 app.use(cors())
 
