@@ -1,3 +1,8 @@
- export const config = {
-    endpoint_backend: "http://localhost:7000/data"
+const config = {
+    port: 8000
 }
+module.exports = {
+    config
+}
+
+
