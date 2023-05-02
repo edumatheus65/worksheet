@@ -7,7 +7,7 @@ function App() {
   const [columns, setColumns] = useState([])
 
   const loadingData = async () => {
-    const url = 'http://localhost:7000/data/'
+    const url = 'http://localhost:8000/data/'
     const res = await fetch(url)
     const data = await res.json()
     setColumns(data.columns)

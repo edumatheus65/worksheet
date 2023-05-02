@@ -1,3 +1,3 @@
  export const config = {
-    endpoint_backend: "http://localhost:3000/"
+    port: "http://localhost:3000/"
 }
