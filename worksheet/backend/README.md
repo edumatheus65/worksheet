@@ -6,7 +6,7 @@
 4 - Copie e cole as informações que estão dentro do arquivo de exemplo: config.example.js para dentro do arquivo config.js<br> 
 5 - Execute o comando npm start no terminal <br>
 6 - Caso a porta do servidor esteja ocupada altere o número da porta no arquivo que foi criado config.js<br> 
-7 - Caso queira abrir visualizar os arquivos no navegador digite: http://localhost:8000/data na barra de navegação<br> 
+7 - Caso queira abrir visualizar os arquivos no navegador digite: http://localhost:8000/data na barra de navegação, caso a porta tenha sido alterada mude o numero na url também<br> 
 
 
 
